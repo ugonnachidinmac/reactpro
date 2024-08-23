@@ -1,0 +1,246 @@
+@import '../SCSS/_includes.scss';
+@import '../SCSS/varables';
+
+.cardContainer{
+    max-width: 950px;
+    margin: 20px auto;
+   
+
+    h1{
+        color: $blueColor;
+        font-size: 24px;
+        margin-bottom: 90px;
+        @include fontWF();
+    }
+    .firstDiv{
+        background-color: #E6DEFB;
+        border-radius: 8px;
+        padding: 15px;
+        max-width: 923px;
+        min-height: 150px;
+    }
+    .secondDiv{
+        border-left: 8px solid #B60000;
+        border-radius: 5px;
+        min-height: 128px;
+        padding-left: 25px;
+        padding-top: 10px;
+        padding-right: 25px;
+         p:nth-child(3){
+            color:  $blueColor;
+            font-size: 30px;
+            @include fontWF();
+        }
+    }
+    .divFlex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        p{
+            color: #B60000;
+            font-size: 40px;
+            @include fontWF();
+        }
+    }
+    .dateAndTime{
+        display: flex;
+        gap: 15px;
+        p{
+            color:  $blueColor;
+            font-size: 20px;
+            @include fontWF();
+        }
+    }
+
+    hr {
+        border: none;
+        border-top: 3px solid #C2C2C2;
+        max-width: 828px;
+        border-radius: 3px;
+      }
+}
+
+
+/* Second Card Design */
+
+.cardContainer2{
+    max-width: 950px;
+    margin: 20px auto;
+
+    h1{
+        color:  $blueColor;
+        font-size: 24px;
+        margin-bottom: 90px;
+        @include fontWF();
+    }
+    .firstDiv{
+        background-color: #E6DEFB;
+        border-radius: 8px;
+        padding: 15px;
+        max-width: 923px;
+        min-height: 150px;
+    }
+    .secondDiv{
+        border-left: 8px solid $greenColor;
+        border-radius: 5px;
+        min-height: 128px;
+        padding-left: 25px;
+        padding-top: 10px;
+        padding-right: 25px;
+         p:nth-child(3){
+            color:  $blueColor;
+            font-size: 30px;
+            @include fontWF();
+        }
+    }
+    .divFlex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        p{
+            color: $greenColor;
+            font-size: 40px;
+            @include fontWF();
+        }
+    }
+    .dateAndTime{
+        display: flex;
+        gap: 15px;
+        p{
+            color:  $blueColor;
+            font-size: 20px;
+            @include fontWF();
+        }
+    }
+
+    hr {
+        border: none;
+        border-top: 3px solid #C2C2C2;
+        max-width: 828px;
+        border-radius: 3px;
+      }
+}
+
+/* Third Card Design */
+.cardContainer3{
+    max-width: 950px;
+    margin: 20px auto;
+
+    h1{
+        color:  $blueColor;
+        font-size: 24px;
+        margin-bottom: 90px;
+        @include fontWF();
+    }
+    .firstDiv{
+        background-color: #E6DEFB;
+        border-radius: 8px;
+        padding: 15px;
+        max-width: 923px;
+        min-height: 150px;
+    }
+    .secondDiv{
+        border-left: 8px solid $greenColor;
+        border-radius: 5px;
+        min-height: 128px;
+        padding-left: 25px;
+        padding-top: 10px;
+        padding-right: 25px;
+         p:nth-child(3){
+            color:  $blueColor;
+            font-size: 30px;
+            @include fontWF();
+        }
+    }
+    .divFlex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        p{
+            color: $greenColor;
+            font-size: 40px;
+            @include fontWF();
+        }
+    }
+    .dateAndTime{
+        display: flex;
+        gap: 15px;
+        p{
+            color:  $blueColor;
+            font-size: 20px;
+            @include fontWF();
+        }
+    }
+
+    hr {
+        border: none;
+        border-top: 3px solid #C2C2C2;
+        max-width: 828px;
+        border-radius: 3px;
+      }
+}
+
+
+/* Forth Card Design */
+.cardContainer4{
+    max-width: 950px;
+    margin: 20px auto;
+
+    h1{
+        color:  $blueColor;
+        font-size: 24px;
+        margin-bottom: 90px;
+        @include fontWF();
+    }
+    .firstDiv{
+        background-color: #E6DEFB;
+        border-radius: 8px;
+        padding: 15px;
+        max-width: 923px;
+        min-height: 150px;
+    }
+    .secondDiv{
+        border-left: 8px solid $redColor;
+        border-radius: 5px;
+        min-height: 128px;
+        padding-left: 25px;
+        padding-top: 10px;
+        padding-right: 25px;
+         p:nth-child(3){
+            color:  $blueColor;
+            font-size: 30px;
+            @include fontWF();
+        }
+    }
+    .divFlex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        p{
+            color: $redColor;
+            font-size: 40px;
+            @include fontWF();
+        }
+    }
+    .dateAndTime{
+        display: flex;
+        gap: 15px;
+        p{
+            color:  $blueColor;
+            font-size: 20px;
+            @include fontWF();
+        }
+    }
+
+    hr {
+        border: none;
+        border-top: 3px solid #C2C2C2;
+        max-width: 828px;
+        border-radius: 3px;
+      }
+}
+
+.bottomMargin{
+    margin-bottom: 50px;
+}
+
